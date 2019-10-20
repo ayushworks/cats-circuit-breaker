@@ -1,7 +1,0 @@
-[0m[[0m[0minfo[0m] [0m[0m[32mResultBufferSpec:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mResultBuffer[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should push data when queue is not full[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mResultBuffer[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should pop last and push new when queue is full[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mResultBuffer[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should match percentage for predicate[0m[0m
