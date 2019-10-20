@@ -1,0 +1,7 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mCircuitBreakerFSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCircuitBreaker[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass successfully for all underlying successful calls[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCircuitBreaker[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should remain closed for failures within threshold[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCircuitBreaker[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should move to open state for failures beyond threshold[0m[0m
