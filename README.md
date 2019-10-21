@@ -65,7 +65,7 @@ To create a `CircuitBreaker`, use the `create` method:
 
 ``` scala
 object CircuitBreaker {
-  def create[F[_]: Concurrent](implicit config: CircuitBreakerConfig): F[CircuitBreaker[F]]
+  def create[F[_]: Sync](implicit config: CircuitBreakerConfig): F[CircuitBreaker[F]]
 }
 ```
 
@@ -96,7 +96,7 @@ def protectedGetData[F](id: Int): F[User] = {
 
 def getData(id: Int): User
 
-def protectedGetData[F](id: Int)(circuitBreaker: CircuitBreaker[F])(implicit ev: MonadError[F, Throwable]): F[User] = {
+def protectedGetData[F](id: Int)(circuitBreaker: CircuitBreaker[F]): F[User] = {
   import circuitbreaker.protect 
   protect(getData(id), circuitBreaker)
 }
