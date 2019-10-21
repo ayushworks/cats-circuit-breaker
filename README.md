@@ -1,6 +1,6 @@
 # cats-circuit-breaker
 
-[![Build Status](https://travis-ci.com/ayushworks/pariksha.svg?branch=master)](https://travis-ci.com/ayushworks/pariksha)
+[![Build Status](https://travis-ci.com/ayushworks/cats-circuit-breaker.svg?branch=master)](https://travis-ci.com/ayushworks/cats-circuit-breaker)
 
 **cats-circuit-breaker** is a purely functional circuit breaker. It
 allows you to decorate services with a circuit breaker. 
